@@ -1,2 +1,9 @@
 
 Library/
+Logs/
+obj/
+Packages/
+.vs/
+.vscode/
+Assembly-CSharp-Editor.csproj
+LearnShader.sln
