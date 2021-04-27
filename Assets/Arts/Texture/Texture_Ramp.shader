@@ -48,7 +48,7 @@ Shader "Custom/Texture_Ramp"
                 
                 fixed halfLambert = dot(worldNormal,worldLightDir) * 0.5 + 0.5;
                 fixed lambert = dot(worldNormal,worldLightDir);
-                fixed3 diffuseColor = tex2D(_Ramp,halfLambert).rgb * _Color.rgb;
+                fixed3 diffuseColor = tex2D(_Ramp,fixed2(lambert,lambert)).rgb * _Color.rgb;
                 fixed3 diffuse = _LightColor0.rgb * diffuseColor;
                 
                 fixed3 viewDir = normalize(UnityWorldSpaceViewDir(i.worldPos));
