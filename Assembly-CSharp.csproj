@@ -122,7 +122,9 @@
      <None Include="Assets\Arts\Specular\Specluar_Phong_Simple.shader" />
      <None Include="Assets\Arts\Diffuse\DiffuseVertexLevel.shader" />
      <None Include="Assets\Res\Shaders\Chapter9\Chapter9-AttenuationAndShadowUseBuildInFunctions.shader" />
+     <None Include="Assets\Arts\Alpha\Alpha_Blend_ZWrite.shader" />
      <None Include="Assets\Arts\Diffuse\DiffuseHalfLambert.shader" />
+     <None Include="Assets\Arts\Alpha\Alpha_Blend.shader" />
      <None Include="Assets\Res\Shaders\Chapter11\Chapter11-ScrollingBackground.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
