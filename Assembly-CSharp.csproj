@@ -65,6 +65,7 @@
      <None Include="Assets\Arts\Texture\Texture_Specular_Mask.shader" />
      <None Include="Assets\Arts\Texture\Texture_Single.shader" />
      <None Include="Assets\Res\Shaders\Chapter9\Chapter9-AlphaTestWithShadow.shader" />
+     <None Include="Assets\Arts\Alpha\Alpha_Test.shader" />
      <None Include="Assets\Res\Shaders\Common\BumpedSpecular.shader" />
      <None Include="Assets\Res\Shaders\Chapter10\Chapter10-Reflection.shader" />
      <None Include="Assets\Res\Shaders\Chapter9\Chapter9-AlphaBlendWithShadow.shader" />
