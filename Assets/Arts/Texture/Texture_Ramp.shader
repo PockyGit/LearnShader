@@ -48,13 +48,14 @@ Shader "Custom/Texture_Ramp"
                 
                 fixed halfLambert = dot(worldNormal,worldLightDir) * 0.5 + 0.5;
                 fixed lambert = dot(worldNormal,worldLightDir);
-                fixed3 diffuseColor = tex2D(_Ramp,fixed2(lambert,lambert)).rgb * _Color.rgb;
+                
+                fixed3 diffuseColor = tex2D(_Ramp,fixed2(halfLambert,halfLambert)).rgb * _Color.rgb;
                 fixed3 diffuse = _LightColor0.rgb * diffuseColor;
                 
                 fixed3 viewDir = normalize(UnityWorldSpaceViewDir(i.worldPos));
                 fixed3 halfDir = normalize(viewDir + worldLightDir);
                 fixed3 specular = _LightColor0.rgb * _Specular.rgb * pow(saturate(dot(worldNormal,halfDir)),_Gloss);
-
+              
                 return float4(ambient + diffuse + specular,1);
             }
             ENDCG

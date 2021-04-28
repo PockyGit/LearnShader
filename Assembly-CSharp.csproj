@@ -62,6 +62,7 @@
      <None Include="Assets\Res\Shaders\Chapter15\Chapter15-Dissolve.shader" />
      <None Include="Assets\Res\Shaders\Chapter13\Chapter13-EdgeDetectNormalAndDepth.shader" />
      <None Include="Assets\Res\Shaders\Chapter17\Chapter17-NormalExtrusion.shader" />
+     <None Include="Assets\Arts\Texture\Texture_Specular_Mask.shader" />
      <None Include="Assets\Arts\Texture\Texture_Single.shader" />
      <None Include="Assets\Res\Shaders\Chapter9\Chapter9-AlphaTestWithShadow.shader" />
      <None Include="Assets\Res\Shaders\Common\BumpedSpecular.shader" />
